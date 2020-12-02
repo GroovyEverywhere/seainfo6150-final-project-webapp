@@ -2,11 +2,10 @@
 
 
   return  (
-    <div className="App">
+    <div >
      哈哈哈哈哈
     </div>
   );
 
 
 
-export default App;
