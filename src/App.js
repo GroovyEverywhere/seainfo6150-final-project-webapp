@@ -6,10 +6,10 @@ import Categories from "./final/categories/categories.jsx"
 function App() {
   return  (
     <div className="App">
-     <Switch>
+     
         <Route exact path="/homepage"><Homepage/></Route>
     
-      </Switch>
+      
     </div>
   );
 
