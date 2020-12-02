@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{11:function(e,n,t){e.exports=t(21)},21:function(e,n,t){"use strict";t.r(n);var a=t(0),o=t.n(a),r=t(8),i=t.n(r),c=t(10);var l=function(){return o.a.createElement("div",null,"\u54c8\u54c8\u54c8\u54c8\u54c8")};i.a.render(o.a.createElement(c.a,{basename:/github.io/.test(window.location)?"/seainfo6150-final-project-webapp":""},o.a.createElement(l,null)),document.getElementById("root"))}},[[11,1,2]]]);
-//# sourceMappingURL=main.f0e518e0.chunk.js.map
