@@ -6,22 +6,9 @@ import "./App.css"
 import Categories from "./final/categories/categories.jsx"
 
 function App() {
-  const [fetchedData, setFetchedData] = useState();
+  
 
-  useEffect(() => {
-    const fetchData = async () => {
-      // performs a GET request
-      const response = await fetch("");
-      const responseJson = await response.json();
-      setFetchedData(Object.values(responseJson));
-    };
-
-    if (isEmpty(fetchedData)) {
-      fetchData();
-    }
-  }, [fetchedData]);
-
-  return isEmpty(fetchedData) ? null : (
+  return (
     <div className="App">
      
       <Switch>
