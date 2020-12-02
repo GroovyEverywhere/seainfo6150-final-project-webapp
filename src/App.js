@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 import Homepage from "./final/homepage/homepage.jsx";
 import { isEmpty } from "lodash";
-import "./App.css"
+// import "./App.css"
 import Categories from "./final/categories/categories.jsx"
 
 function App() {
