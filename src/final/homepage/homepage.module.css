@@ -1,7 +1,7 @@
 .homeContent{
     background: url("https://cdn.pixabay.com/photo/2015/03/26/09/54/restaurant-690569_1280.jpg");
     background-size: cover;
-    height: 800px;
+    height: auto;
 }
 .intro{
     position: relative;
