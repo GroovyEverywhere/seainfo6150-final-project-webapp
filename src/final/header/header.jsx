@@ -9,7 +9,7 @@ const Header = () => {
   return  (
     <div>
     <section className = {Styles.HeadBar}>
-    <Link to = "/homepage" className={Styles.logoLink}>
+    <Link to = "/" className={Styles.logoLink}>
       <img  className = {Styles.logo} src = {Aomg}/>
       </Link>
       <Link to = "/categories" className = {Styles.bar}>Categories</Link> 
