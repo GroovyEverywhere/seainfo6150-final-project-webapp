@@ -1,16 +1,21 @@
 .HeadBar{
     display: flex;
     justify-content: space-evenly;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 0px;
     color: white;
     background: rgb(199, 77, 6);
   }
   .logo{
-      width: 30%;
-      height: 30%;
-      justify-content: space-evenly;
+    padding-top:5px;
+    width: 100%;
+    height: auto;
   }
+  .logoLink{
+    width:20%;
+    height:auto;
+  }
+
 .bar{
     font-family: serif;
     padding: 10px;

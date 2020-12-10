@@ -9,11 +9,13 @@ const Header = () => {
   return  (
     <div>
     <section className = {Styles.HeadBar}>
-      <img className = {Styles.logo} src = {Aomg}/>
+    <Link to = "/homepage" className={Styles.logoLink}>
+      <img  className = {Styles.logo} src = {Aomg}/>
+      </Link>
       <Link to = "/categories" className = {Styles.bar}>Categories</Link> 
-      <div className = {Styles.bar}>All Recipes</div> 
-      <div className = {Styles.bar}>Cooking Tips</div> 
-      <div className = {Styles.bar}>About Us</div>
+      <Link to = "/allrecipes" className = {Styles.bar}>All Recipes</Link> 
+      <Link to = "/tips" className = {Styles.bar}>Cooking Tips</Link> 
+      <Link to = "/about" className = {Styles.bar}>About Us</Link>
     </section>
     </div>
   );

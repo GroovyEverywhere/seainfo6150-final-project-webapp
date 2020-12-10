@@ -1,0 +1,26 @@
+.FootBar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 0px;
+    color: white;
+    background: rgb(199, 77, 6);
+
+}
+.logo{
+    width: 20%;
+    height: 20%;
+    justify-content: space-evenly;
+}
+.sentence{
+    color: white;
+    font-family: serif;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+.note{
+    color: white;
+    font-family: serif;
+    padding: 10px;
+    font-size: 1.25rem;
+}
