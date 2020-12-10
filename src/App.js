@@ -53,7 +53,7 @@ function App() {
     <div className="App">
      
       <Switch>
-        <Route exact path="/homepage"><Homepage/></Route>
+        <Route exact path="/"><Homepage/></Route>
         <Route exact path="/categories"><Categories/></Route>
         <Route exact path="/allrecipes"><Allrecipes article={fetchedData}/></Route>
         <Route exact path="/tips"><Tips/></Route>
