@@ -35,7 +35,7 @@ const Homepage = () => {
                 
                 <img className={Styles.pic1} src = "https://cdn.livekindly.co/wp-content/uploads/2018/04/Eminem-Moms-Spag.png"/>
                 
-                <h3 className={Styles.words}>You can find varios cursins with any fusion styles right here. Chinese🥡? Japanese🍣? Mexican🌮? We got it all and of course homemade mom's spaghetti.🍝</h3>
+                <h3 className={Styles.words}>You can find varios cuisines with any fusion styles right here. Chinese🥡? Japanese🍣? Mexican🌮? We got it all and of course homemade mom's spaghetti.🍝</h3>
                 <hr/>
                 
                 <div className={Styles.container}>

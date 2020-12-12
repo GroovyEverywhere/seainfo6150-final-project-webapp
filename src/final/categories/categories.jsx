@@ -41,8 +41,8 @@ const Categories = (props) => {
     <div>
         <Header/>
         <section className={Styles.head}>
-          <h1 className={Styles.title}>World Cursins</h1>
-          <h1 className={Styles.explaination}>When "show more" is clicked, the first one is the number of recipes in that category and the second one is the introduction of the cursin.</h1>
+          <h1 className={Styles.title}>World Cuisines</h1>
+          <h1 className={Styles.explaination}>When "show more" is clicked, the first one is the number of recipes in that category and the second one is the introduction of the cuisine.</h1>
         </section>
         <section className = {Styles.Cuisine}>
             <div className = {Styles.type1}>

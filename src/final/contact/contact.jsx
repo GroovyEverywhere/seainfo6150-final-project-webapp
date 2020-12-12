@@ -50,7 +50,7 @@ render(){
             <input className={Styles.addtext2} type="text" name="address2" placeholder="address2"/>
             <p><b>Email Address </b><span className={Styles.req}>*</span></p>
             <input type="text" name="email" />
-            <p><b>Interesting Cursins</b></p>
+            <p><b>Interesting Cuisines</b></p>
             <select>
                 <option value="1">Please Select</option>
                 <option value="Chinese">Chinese</option>
@@ -61,13 +61,13 @@ render(){
                 <option value="Dessert">Dessert</option>
                 <option value="Drinks">Drinks</option>
             </select>
-            <p><b>How do rate your profession of cook?</b></p>
+            <p><b>How do rate your proficiency of cook?</b></p>
             <div className={Styles.checkbox}>
                 <label><input type="checkbox" name="beginner" id="beginner" value="beginner"/> Beginner</label>
                 <label><input type="checkbox" name="intermediate" id="intermediate" value="intermediate"/> Intermediate</label>
                 <label><input type="checkbox" name="professional" id="professional" value="professional"/> Professional</label>
                 <label><input type="checkbox" name="Master" id="Master" value="Master"/> Master</label>
-                <label><input type="checkbox" name="better" id="better" value="better"/> Well, just a little better than Gorden Ramsy</label>
+                <label><input type="checkbox" name="better" id="better" value="better"/> Well, just a little better than Gorden Ramsay</label>
             </div>
             <p><b>Your Comment</b></p>
             <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Tell us more about you or rate our service"></textarea><br></br>
