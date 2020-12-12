@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;
-    background: url("https://media.istockphoto.com/photos/chef-in-restaurant-kitchen-at-stove-with-high-burning-flames-picture-id913931820?b=1&k=6&m=913931820&s=170667a&w=0&h=BL5Nv1CjTfbtJpGpvwDtGQsQ3J7UUkxC1QcBo_Llxgk=");
+    background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607757497335&di=be6d85e17dc8006bc69adb2795b4238f&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn13%2F319%2Fw700h419%2F20180803%2F1d0d-hhehtqh3647998.png");
     background-position: center;
     background-size: cover;
     box-shadow: 2px 2px 6px 3px  rgba(0,0,0,0.3);
@@ -52,7 +52,7 @@
 }
 .type1:hover{
     background: linear-gradient(orange,transparent),
-    url('https://media.istockphoto.com/photos/chef-in-restaurant-kitchen-at-stove-with-high-burning-flames-picture-id913931820?b=1&k=6&m=913931820&s=170667a&w=0&h=BL5Nv1CjTfbtJpGpvwDtGQsQ3J7UUkxC1QcBo_Llxgk=');
+    url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607757497335&di=be6d85e17dc8006bc69adb2795b4238f&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn13%2F319%2Fw700h419%2F20180803%2F1d0d-hhehtqh3647998.png');
     background-position: center;
     background-size: cover;
 }

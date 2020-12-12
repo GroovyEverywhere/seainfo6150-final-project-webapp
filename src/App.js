@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Homepage from "./final/homepage/homepage.jsx";
 import { isEmpty } from "lodash";
 import "./App.css"
@@ -32,6 +32,7 @@ import Dessert2 from "./final/dessert2/dessert2.jsx"
 import Drinks1 from "./final/drinks1/drinks1.jsx"
 import Drinks2 from "./final/drinks2/drinks2.jsx"
 import Contact from "./final/contact/contact.jsx"
+import Errorpage from "./final/errorpage/errorpage.jsx"
 
 function App() {
   const [fetchedData, setFetchedData] = useState();
@@ -59,6 +60,7 @@ function App() {
         <Route exact path="/tips"><Tips/></Route>
         <Route exact path="/about"><About/></Route>
         <Route exact path="/contact"><Contact/></Route>
+        <Route exact path="/errorpage"><Errorpage/></Route>
 
         <Route exact path="/chinese"><Chinese article={fetchedData}/></Route>
         <Route exact path="/japanese"><Japanese article={fetchedData}/></Route>

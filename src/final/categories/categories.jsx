@@ -51,7 +51,7 @@ const Categories = (props) => {
                     <div className={Styles.text}>
                     <ul>
                       <li>3</li> 
-                      <li>And more</li>  
+                      <li>Integrity of color and taste </li>  
                     </ul>
                     </div>
                 )}
@@ -63,7 +63,7 @@ const Categories = (props) => {
                     <div className={Styles.text}>
                     <ul>
                       <li>1</li> 
-                      <li>And more</li>  
+                      <li>Traditional and flavorful</li>  
                     </ul>
                     </div>
                 )}
@@ -75,7 +75,7 @@ const Categories = (props) => {
                     <div className={Styles.text}>
                     <ul>
                       <li>2</li> 
-                      <li>And more</li>  
+                      <li>Mixture of freshness</li>  
                     </ul>
                     </div>
                 )}
@@ -87,7 +87,7 @@ const Categories = (props) => {
                     <div className={Styles.text}>
                     <ul>
                       <li>3</li> 
-                      <li>And more</li>  
+                      <li>Historic and thick</li>  
                     </ul>
                     </div>
                 )}
@@ -99,7 +99,7 @@ const Categories = (props) => {
                     <div className={Styles.text5}>
                     <ul>
                       <li >4</li>  
-                      <li >And more</li>  
+                      <li >Combination of fusions</li>  
                     </ul>
                     </div>
                 )}
@@ -111,7 +111,7 @@ const Categories = (props) => {
                     <div className={Styles.text}>
                     <ul>
                       <li>2</li> 
-                      <li>And more</li>  
+                      <li>Delightful sweetness</li>  
                     </ul>
                     </div>
                 )}
@@ -123,7 +123,7 @@ const Categories = (props) => {
                     <div className={Styles.text}>
                     <ul>
                       <li>2</li> 
-                      <li>And more</li>  
+                      <li>Refreshing and comfort</li>  
                     </ul>
                     </div>
                 )}
